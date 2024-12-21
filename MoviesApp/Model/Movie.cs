@@ -12,6 +12,7 @@ namespace MoviesApp.Model
         public byte[] Poster { get; set; }
         [MaxLength(1000)]
         public string Description { get; set; }
+        
         public  int GenreId {get; set; }
         
         public Genre Genre { get; set; }    
