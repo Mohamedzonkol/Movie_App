@@ -13,6 +13,7 @@ namespace MoviesApp.Model
         [MaxLength(1000)]
         public string Description { get; set; }
         public  int GenreId {get; set; }
+        
         public Genre Genre { get; set; }    
 
     }
